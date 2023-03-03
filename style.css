@@ -1,0 +1,147 @@
+/* nav section */
+.navbar {
+
+    position: fixed;
+    top: 0%;
+    background-color: #fff;
+    width: 100%;
+    box-shadow: 0px 0px 8px rgb(0 0 0 /6%);
+
+
+}
+
+ul {
+    list-style-type: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600px;
+    margin-top: 0%;
+}
+
+li {
+    float: left;
+
+
+}
+
+li a {
+    display: block;
+    padding: 25px;
+    background-color: #fff;
+    text-decoration: none;
+    color: #000
+}
+
+/* banner section */
+.container {
+    width: 100%;
+    margin: 2% 0%;
+    padding: 6% 0%;
+}
+
+.banner {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    background-color: rgb(95 158 160);
+}
+
+.banner .image img {
+    width: 100%;
+}
+
+.banner .content {
+    font-family: 'Lato', sans-serif;
+    padding: 6% 9%;
+}
+
+.banner .content .title {
+    font-size: 50px;
+}
+
+.banner .content .title span {
+    font-weight: 800;
+}
+
+.banner .content .desc {
+    font-size: 26px;
+
+}
+
+.banner .content .btn {
+    background-color: coral;
+    font-size: 30px;
+    color: #f1ccc1;
+    font-weight: 700;
+    cursor: pointer;
+    padding: 2% 5%;
+    border-radius: 42px;
+    font-family: 'Lato', sans-serif;
+    border: none;
+}
+
+/* aboout section  */
+.about {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    background-color: #b5d8f6;
+}
+
+.about .content {
+    font-family: 'Lato', sans-serif;
+    padding: 20% 13%;
+}
+
+.about .content .title {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.about .content .desc {
+    font-size: 19px;
+    font-family: 'Lato', sans-serif;
+}
+
+.about .image img {
+    width: 100%;
+    margin-top: 145px;
+}
+
+/* skill section  */
+/* .skills {
+    border: 2px solid rebeccapurple;
+} */
+
+.skills .content {
+    font-family: 'Lato', sans-serif;
+
+    padding: 2% 13%;
+    background-color: #aaeba6;
+    margin-top: -60px;
+    margin-bottom: -56px;
+}
+
+.skills .content .title {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 4%;
+    text-align: center;
+}
+
+.skills .grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-gap: 13px;
+    margin-right: 49px;
+}
+
+.skills .grid-container .item {
+    border: 1px solid #fff;
+    padding: 7% 6%;
+    border-bottom: 3px solid #b5d8f6;
+    background-color: #fff;
+
+}
+
+.skills .grid-container .item i {
+    font-size: 22px;
+
+}
